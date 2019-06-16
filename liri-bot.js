@@ -1,7 +1,7 @@
 require("dotenv").config();
 
 var logFile = './random.txt';
-var keys = require("./keys.js");
+//var keys = require("./keys.js");
 var BinT = require("band in town");
 var spotify = require("spotify");
 var OMDB = require("OMDB");
