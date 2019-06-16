@@ -23,7 +23,7 @@ var concertSearch = function () { }
 var songSearch = function () {
     spotify.search({
         type: "track",
-        query: userSearch,
+        query: userSearch,},
         function(err, data) {
             if (err) {
                 console.log("Error occurred: " + err);
@@ -55,11 +55,42 @@ var songSearch = function () {
                 }
             }
         }
-    });
+    );
 }
 
 var movieSearch = function(){
+    var queryURL = "http://www.omdbapi.com/?t=" + userSearch + "&y=&plot=short&tomatoes=true&apikey=trilogy";
 
+    request(queryURL, function(error, response, body) {
+    
+      // If the request is successful (i.e. if the response status code is 200)
+      if (error) {
+        console.log("Error occurred: " + error);
+        return;
+      }
+      if(value === ""){
+        console.log("***");
+        console.log("Title: Mr.Nobody");
+        console.log("Release Year: 2009");
+        console.log("Tomato: 67%");
+        console.log("Country: Belgium, Germany, Canada, France, USA, UK");
+        console.log("Language: en");
+        console.log("Plot: Nemo Nobody leads an ordinary existence with his wife and 3 children; one day, he wakes up as a mortal centenarian in the year 2092.");
+        console.log("Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham");
+        console.log("***");
+      }else{
+        var body = JSON.parse(body);
+        console.log("***");
+        console.log("Title: " + body.Title);
+        console.log("Release Year: " + body.Year);
+        console.log("Tomatoes: " + body.Ratings[2].Value);
+        console.log("Country: " + body.Country);
+        console.log("Language: " + body.Language);
+        console.log("Plot: " + body.Plot);
+        console.log("Actors: " + body.Actors);
+        console.log("***");
+    }
+    });
 }
 
 
