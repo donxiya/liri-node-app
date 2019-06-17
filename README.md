@@ -19,8 +19,21 @@ Take the following commands:
 - movie-this:
 ![](https://raw.githubusercontent.com/donxiya/liri-node-app/master/screen_shots/liri-movie-this.gif)
 
-- 
+- spotify-this
 ![](https://raw.githubusercontent.com/donxiya/liri-node-app/master/screen_shots/liri-spotify-this.gif)
 
--
+- do-what-it-says
 ![](https://raw.githubusercontent.com/donxiya/liri-node-app/master/screen_shots/do-what-it-says.gif)
+
+### Technologies Utilized
+- NodeJS
+- Spotify API
+- BandinTown API
+- OMDB API
+- MomentJS
+- NPM dotenv
+- NPM request
+- NPM spotify-web-api-node
+
+### Authos
+Hao Tran
