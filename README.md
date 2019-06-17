@@ -7,9 +7,16 @@ LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and R
 
 ### Overview
 Take the following commands:
+- concert-this: use BandinTown API to search for the event by artist.
+- movie-this: use OMDB API to search movie by title.
+- spotify-this: use Spotify API to search for song.
+- do-what-it-says: read txt file and execute the command in file.
+
+### Funtions Demo
+- concert-this: 
+[alt text](https://github.com/donxiya/liri-node-app/blob/master/screen_shots/liri-concert-this.mp4?raw=true "Logo Title Text 1")
 
 
-### Funtions
 
 - 
 
