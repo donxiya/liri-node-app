@@ -14,7 +14,7 @@ Take the following commands:
 
 ### Funtions Demo
 - concert-this: 
-[alt text](https://github.com/donxiya/liri-node-app/blob/master/screen_shots/liri-concert-this.mp4?raw=true "Logo Title Text 1")
+[alt text](https://raw.githubusercontent.com/donxiya/liri-node-app/master/screen_shots/liri-concert-this.gif)
 
 
 
