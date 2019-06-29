@@ -35,5 +35,5 @@ Take the following commands:
 - NPM request
 - NPM spotify-web-api-node
 
-### Authors
+### Author
 Hao Tran
